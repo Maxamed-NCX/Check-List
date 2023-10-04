@@ -37,7 +37,6 @@ li.list-name.active-list::marker {
 }
 
 .container {
-  /* border: 2px black solid; */
   display: flex;
   justify-content: space-evenly;
   width: 80%;
@@ -46,12 +45,10 @@ li.list-name.active-list::marker {
   margin-top: 200px;
   align-content: center;
 }
-.all-tasks {
-  margin: 0px;
-  border: black 2px solid;
-}
 
 .all-tasks {
+   margin: 0px;
+  border: black 2px solid;
   --spacer: 2rem;
   padding-left: 20px;
   background: var(--lighter-clr);
